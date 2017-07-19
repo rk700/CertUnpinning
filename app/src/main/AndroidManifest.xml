@@ -3,7 +3,12 @@
     package="lab.galaxy.certunpinning">
 
     <application
-        android:hasCode="false">
+        android:hasCode="false"
+		android:label="CertUnpinning">
+        <meta-data
+            android:name="yahfa.hook.plugin"
+            android:value="true"
+        />
     </application>
 
 </manifest>
